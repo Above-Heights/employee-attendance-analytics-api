@@ -1,0 +1,4 @@
+# Development and test tools are separate from the application's runtime imports.
+-r requirements.txt
+pytest>=8.0,<10
+httpx>=0.27,<1
